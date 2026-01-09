@@ -24,7 +24,7 @@ def print_result(images):
 def player_chooses():
     print("Welcome to Rock, Paper, Scissors")
     print("=" * 50)
-    result = input("Choose either rock, paper or scissors ").lower()
+    result = input("Choose either rock, paper or scissors: ").casefold()
     choicelist = ["rock", "paper", "scissors"]
     if result in choicelist:
         players_choice = result
@@ -92,7 +92,7 @@ def game(players_choice, opponents_choice):
     elif players_choice == "scissors" and opponents_choice == "scissors":
         print_result(ASCII_sprites["scissors_scissors"])
         print("Same result. Try again.")
-    play = input("Play again? (y = Yes, n = No) ").lower()
+    play = input("Play again? (y = Yes, n = No) ").casefold()
     if play == "y":
         main()
     else:
