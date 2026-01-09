@@ -1,14 +1,13 @@
 ASCII_sprites = {
     "rock_rock": [
-        """ 
-                    
-                            ..=8MMMMMMMM..                         
+        """         
+                              .=8MMMMMMMM..                         
                             .MNMM  ..,.INMM.                        
-                        .. MMM=..........,MMMMMMM7 ..               
+                        .. MMM=..........,MMMMMMM7..               
             .......... .MMM....  MM.   . MMMMMMMMMM...             
         ...............MMN. . ..,,MM..   .MM.  . ,.MM..             
         .IMMMMMMMMMMMMNN8,.   .  .MM .    MM. .  .=MM .             
-        .IM7...        .      ...,MM.     MMMMMMMMMM.               
+        .IM7 .         .      ...,MM.     MMMMMMMMMM.               
         .IM7 .                  .DMM..    MNMMMMMMMMM..             
         .IM7 .         ...    . 7DDN..    MM     ..NM:.             
         .IM7 .        .MM7. ..IMMNMM..   .MM.......8M=              
@@ -19,47 +18,40 @@ ASCII_sprites = {
         .IM7.  ..     ...     .. ,.,. .OMM.......NMM .              
         INMMMMMMMMMMMMN .       .......MNMMMMMMMNN..               
         ,$O8DNNMMMMMMMMN,.   . .......MM:...  ..MM.                
-            .    .   ..NMM?, ..,.. ...MM~.... ..MM..               
-                        MMMMM8MDMMM8MMMMMMMMMMMMZ..  
-                                
-                                
-                        
+                     ..NMM?, ..,.. ...MM~.... ..MM..               
+                        MMMMM8MDMMM8MMMMMMMMMMMMZ..     
                                             """,
         """                      
-                                                
-                        . ..MMMMMMMM8=..                      
-                            MMNI.,....MMNM.                     
-                ...7MMMMMMM...... ....=MMM..                  
-                ..MMNMMMMMMM .   .MM...  .MMM. ...........     
-                . MM., .  .MM    . MM,,.. . .MNM..............  
-                MM=.    .MM     .MM ...   .,OMNMMMMMMMMMMMM7. 
-                . .MMMMMMMMMM    ..MM,...      .          .7MI. 
-                ..MMMMMMMMMNM  .  .MMD.       .          . 7MI. 
-                .:MD.     .MM    ..NDD7 .                . 7MI. 
-                =MO.......MM. .   MMNMM7. .,7MM         . 7MI. 
-                ..MMM.  . .MM,...IM8. .8MMMMMMN.         . 7MI. 
-                . .ZMMMMMMMMMMMMMMM,,,,:.....  .         . 7MI. 
-                .MM, ..... =MM.. .. ..                 . 7MI. 
-                ,MN. .     .MM  , .  .                 . 7MI. 
-                .MMN ......MMO...,.,  .         .      . 7MI. 
-                ..NNMMMMMMMMM..... .        .NMMMMMMMMMMMMMI. 
-                ..MN..     :MM,......   . ,,NMMMMMMMMNND88$,. 
-                ..MM. .....~MM. ....,.. .?MMM.. .. .   ..   . 
-                 .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
-                            
-                            
-                                
+                          ..MMMMMMMM8=.                              
+                        .MMNI.,..  MMNM.                            
+               ..7MMMMMMM,..........=MMM ..                        
+             ...MMMMMMMMMM .   .MM  ....MMM. ..........            
+             ..MM., .  .MM.   ..MM,,.. . .NMM...............        
+             . MM=.  . .MM    . MM.  .   .,8NNMMMMMMMMMMMMI.        
+               .MMMMMMMMMM     .MM,...      .         . 7MI.        
+             ..MMMMMMMMMNM    ..MMD.                  . 7MI.        
+             .:MN..     MM    ..NDD7 .    ...         . 7MI.        
+              =M8.......MM.   ..MMNMMI.. .7MM.        . 7MI.        
+             . MMM......MM,.  IM8...8MMMMMMN,.        . 7MI.        
+             ...ZMMMMMMMMMMMMMMM,,,,:........         . 7MI.        
+               .MM, .  ...=MM.........                . 7MI.        
+               ,MM. ..    .MM .,    .                 . 7MI.        
+              . MMN.......MMO. .,., ..     ...     ..  .7MI.        
+               ..NNMMMMMMMNM.......       . NMMMMMMMMMMMMNI        
+                .MM..  ...:MM....... .   .,NMMMMMMMMNND8O$,        
+               ..MM.. ....~MM... ..,.. ,?MMN..                   
+               ..ZMMMMMMMMMMMM8MMMDM8MMMMM                            
                             """,
     ],
     "paper_rock": [
         """                                           
-                                .MMMM$. .                         
+                                 .MMMM$.                         
                                 .MMM..DNN.                          
                             ..MMM   .MMM..                        
-                            . MMM. .  ..MM .                        
+                            . MMM. ...MM..                        
                         ..:MMZ.      MMD..                        
-                        ...MMM..     .MMMMMMMMMMMMMMMMMMMMM$.....   
-        .            . DMMO .    .MMMMMMMMMMMMMMMMMMMMMMMMMMO .   
+                        ...MMM..     .MMMMMMMMMMMMMMMMMMMMM$.   
+                     . DMMO .    .MMMMMMMMMMMMMMMMMMMMMMMMMMO.   
                     ,MMM.      .MNN. .....................MMO    
         ..MMMMMMMMMMMMMMM ..    .MMM,                       .OMM.   
         .MMMMMMMMMMMMMO.        MM?..    .. ............. .,MM,    
@@ -75,54 +67,51 @@ ASCII_sprites = {
         .MMMMMMMMMMMMMNN ..               MMMMMMMMMMMMMMMMN....    
         .. .......,,,,,MMN .             .  ..   ... ..MM... ...    
             .......     .MMMM........................,OMN..         
-                    .   ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .        
-                                                            
+                    .   ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .                                       
                                                             """,
-        """        
+        """              
+
+
+                          ..MMMMMMMM8=.                              
+                        .MMNI.,..  MMNM.                            
+               ..7MMMMMMM,..........=MMM ..                        
+             ...MMMMMMMMMM .   .MM  ....MMM. ..........            
+             ..MM., .  .MM.   ..MM,,.. . .NMM...............        
+             . MM=.  . .MM    . MM.  .   .,8NNMMMMMMMMMMMMI.        
+               .MMMMMMMMMM     .MM,...      .         . 7MI.        
+             ..MMMMMMMMMNM    ..MMD.                  . 7MI.        
+             .:MN..     MM    ..NDD7 .    ...         . 7MI.        
+              =M8.......MM.   ..MMNMMI.. .7MM.        . 7MI.        
+             . MMM......MM,.  IM8...8MMMMMMN,.        . 7MI.        
+             ...ZMMMMMMMMMMMMMMM,,,,:........         . 7MI.        
+               .MM, .  ...=MM.........                . 7MI.        
+               ,MM. ..    .MM .,    .                 . 7MI.        
+              . MMN.......MMO. .,., ..     ...     ..  .7MI.        
+               ..NNMMMMMMMNM.......       . NMMMMMMMMMMMMNI        
+                .MM..  ...:MM....... .   .,NMMMMMMMMNND8O$,        
+               ..MM.. ....~MM... ..,.. ,?MMN..                   
+               ..ZMMMMMMMMMMMM8MMMDM8MMMMM      
+
                 
-                
-                
-                                
-                            . ..MMMMMMMM8=..                      
-                                MMNI.,....MMNM.                     
-                    ...7MMMMMMM...... ....=MMM..                  
-                    ..MMNMMMMMMM .   .MM...  .MMM. ...........     
-                    . MM., .  .MM    . MM,,.. . .MNM..............  
-                    MM=.    .MM     .MM ...   .,OMNMMMMMMMMMMMM7. 
-                    . .MMMMMMMMMM    ..MM,...      .          .7MI. 
-                    ..MMMMMMMMMNM  .  .MMD.       .          . 7MI. 
-                    .:MD.     .MM    ..NDD7 .                . 7MI. 
-                    =MO.......MM. .   MMNMM7. .,7MM         . 7MI. 
-                    ..MMM.  . .MM,...IM8. .8MMMMMMN.         . 7MI. 
-                    . .ZMMMMMMMMMMMMMMM,,,,:.....  .         . 7MI. 
-                    .MM, ..... =MM.. .. ..                 . 7MI. 
-                    ,MN. .     .MM  , .  .                 . 7MI. 
-                    .MMN ......MMO...,.,  .         .      . 7MI. 
-                    ..NNMMMMMMMMM..... .        .NMMMMMMMMMMMMMI. 
-                    ..MN..     :MM,......   . ,,NMMMMMMMMNND88$,. 
-                    ..MM. .....~MM. ....,.. .?MMM.. .. .   ..   . 
-                     .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
-                                
-                                
-                                    
-                                """,
+                            """,
     ],
     "scissors_rock": [
-        """                        .  .     .                 .         
+        """
+                                ..                                 
                             . .,MMMMMM,  .                         
                         . ,.MMNMD::OMMMMZ  . .. .....~DMMM$.      
                         . .MMMD .      .NN=...7MMMMMMMMMMMMMN..    
                     ...MMM  ...MN     .MMMMMMMM=....     .MM,    
         .             MMM+.    .MM.  ...MM.....       .   .MM.    
         ..MMMMMMMMMMMMMMM+.     . MM.    .MM. . .. ... .$MMMMN..    
-        .MMMMMMMMMMMMMM$.       ..MM.  ...MM. IMMMMMMMMMMMM~.   .   
+        .MMMMMMMMMMMMMM$.       ..MM.  ...MM. IMMMMMMMMMMMM~.      
         .MM..            .      ..MM   ...MMMMMMMMMMMMMMMMMMMMD..   
         .MM.                  .. MMM.  .. MM.........,:~+IZ8NMMMD.  
         .MM.          . . ..  ..MMMM,   ..MM.    . .. .. .  ...MM   
         .MM.          .7MMM,..DMMM.MN.    MM ..       .       .MM   
         .MM.          ...MMMMMMM...~DMN.~NMMMMMMMMMMNND88OOZOOMMM   
         .MM.                ..      .NNMMMMMMMMMMNMMMMMMMMMMMMM~ .  
-        .MM.                          .MM,. ... . MM+.... ..   .    
+        .MM.                          .MM,. ... . MM+....        
         .MM,        ...                MMO........MM..              
         .MM. ..       ..              ..MMMMMMMMMMMM,.              
         .NMMMMMMMMMMMMMN,.             .MMD?++++MND...              
@@ -132,41 +121,41 @@ ASCII_sprites = {
                         
                                                                     
                                                     """,
-        """        
-                                
-                            . ..MMMMMMMM8=..                      
-                                MMNI.,....MMNM.                     
-                    ...7MMMMMMM...... ....=MMM..                  
-                    ..MMNMMMMMMM .   .MM...  .MMM. ...........     
-                    . MM., .  .MM    . MM,,.. . .MNM..............  
-                    MM=.    .MM     .MM ...   .,OMNMMMMMMMMMMMM7. 
-                    . .MMMMMMMMMM    ..MM,...      .          .7MI. 
-                    ..MMMMMMMMMNM  .  .MMD.       .          . 7MI. 
-                    .:MD.     .MM    ..NDD7 .                . 7MI. 
-                    =MO.......MM. .   MMNMM7. .,7MM         . 7MI. 
-                    ..MMM.  . .MM,...IM8. .8MMMMMMN.         . 7MI. 
-                    . .ZMMMMMMMMMMMMMMM,,,,:.....  .         . 7MI. 
-                    .MM, ..... =MM.. .. ..                 . 7MI. 
-                    ,MN. .     .MM  , .  .                 . 7MI. 
-                    .MMN ......MMO...,.,  .         .      . 7MI. 
-                    ..NNMMMMMMMMM..... .        .NMMMMMMMMMMMMMI. 
-                    ..MN..     :MM,......   . ,,NMMMMMMMMNND88$,. 
-                    ..MM. .....~MM. ....,.. .?MMM.. .. .   ..   . 
-                     .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
-                                
-                                
-                                    
-                                """,
+        """       
+
+
+                          ..MMMMMMMM8=.                              
+                        .MMNI.,..  MMNM.                            
+               ..7MMMMMMM,..........=MMM ..                        
+             ...MMMMMMMMMM .   .MM  ....MMM. ..........            
+             ..MM., .  .MM.   ..MM,,.. . .NMM...............        
+             . MM=.  . .MM    . MM.  .   .,8NNMMMMMMMMMMMMI.        
+               .MMMMMMMMMM     .MM,...      .         . 7MI.        
+             ..MMMMMMMMMNM    ..MMD.                  . 7MI.        
+             .:MN..     MM    ..NDD7 .    ...         . 7MI.        
+              =M8.......MM.   ..MMNMMI.. .7MM.        . 7MI.        
+             . MMM......MM,.  IM8...8MMMMMMN,.        . 7MI.        
+             ...ZMMMMMMMMMMMMMMM,,,,:........         . 7MI.        
+               .MM, .  ...=MM.........                . 7MI.        
+               ,MM. ..    .MM .,    .                 . 7MI.        
+              . MMN.......MMO. .,., ..     ...     ..  .7MI.        
+               ..NNMMMMMMMNM.......       . NMMMMMMMMMMMMNI        
+                .MM..  ...:MM....... .   .,NMMMMMMMMNND8O$,        
+               ..MM.. ....~MM... ..,.. ,?MMN..                   
+               ..ZMMMMMMMMMMMM8MMMDM8MMMMM     
+
+
+                            """,
     ],
     "paper_paper": [
         """                                           
-                                .MMMM$. .                         
+                                 .MMMM$.                         
                                 .MMM..DNN.                          
                             ..MMM   .MMM..                        
-                            . MMM. .  ..MM .                        
+                            . MMM. ...MM..                        
                         ..:MMZ.      MMD..                        
-                        ...MMM..     .MMMMMMMMMMMMMMMMMMMMM$.....   
-        .            . DMMO .    .MMMMMMMMMMMMMMMMMMMMMMMMMMO .   
+                        ...MMM..     .MMMMMMMMMMMMMMMMMMMMM$.   
+                     . DMMO .    .MMMMMMMMMMMMMMMMMMMMMMMMMMO.   
                     ,MMM.      .MNN. .....................MMO    
         ..MMMMMMMMMMMMMMM ..    .MMM,                       .OMM.   
         .MMMMMMMMMMMMMO.        MM?..    .. ............. .,MM,    
@@ -182,16 +171,15 @@ ASCII_sprites = {
         .MMMMMMMMMMMMMNN ..               MMMMMMMMMMMMMMMMN....    
         .. .......,,,,,MMN .             .  ..   ... ..MM... ...    
             .......     .MMMM........................,OMN..         
-                    .   ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .        
-                                                            
+                    .   ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.                                               
                                                             """,
         """     
-                                .$MMMM...                         
-                                ..NND..MMM.                         
-                                .MMM. ..MMM..                       
-                            ..MM..  . .MMM                       
+                                .$MMMM..                         
+                              .NND..MMM.                         
+                              .MMM.    MMM..                       
+                             ..MM..  . .MMM.                       
                             . DMM      .ZMM:..                   
-        .  ..ZMMMMMMMMMMMMMMMMMMMMM      ..MMM.                   
+           ..ZMMMMMMMMMMMMMMMMMMMMM      ..MMM.                   
         .ZMMMMMMMMMMMMMMMMMMMMMMMMMM..   . ONMD..                
         . OMM....................  .NNM.      .MMM,                
         MMO.                      .,MMM.    ...MMMMMMMMMMMMMMM.. 
@@ -199,64 +187,64 @@ ASCII_sprites = {
         ..~MMMMMMMMMMMMMMMMMMMM..     MM8 .        ....       MM   
         .MMM.....                    .=MM.                    MM   
         IMZ.                 ..       .MMM . .  ..            MM   
-        MM.                           .MMNM ..NMM.           MM   
+        MM.                           .MMNM ..NMM.            MM   
         .,MMMMMMMMMMMMMMMMMMMMN.       ..,NMMMMMM..           MM   
-        ..MMMI~:~~~~~~~~~~~:.,          .. ....             MM   
-        .NMM...                                             MM   
-        ..NMM.               .                               MM   
-            MMMMMMMMMMMMMMMMMMM.                  ..    ... ..MM.  
+        ..MMMI~:~~~~~~~~~~~:.,          .. ....               MM   
+        .NMM...                                               MM   
+        ..NMM.               .                                MM   
+            MMMMMMMMMMMMMMMMMMM.                  ..    .....MM.  
             .NMMMMMMMMMMMMMMMM .             .  NNMMMMMMMMMMMMM   
-        .  ... MM . .....  . .               .NMM.,,,,....... .. 
+            .. MM . .....  . .               .NMM.,,,,....... .. 
                 .NMO.........................MMMM .    .......     
                    MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
                 """,
     ],
     "scissors_scissors": [
-        """                        .  .     .                         
+        """
+                                ..                                 
                             . .,MMMMMM,  .                         
                         . ,.MMNMD::OMMMMZ  . .. .....~DMMM$.      
                         . .MMMD .      .NN=...7MMMMMMMMMMMMMN..    
                     ...MMM  ...MN     .MMMMMMMM=....     .MM,    
         .             MMM+.    .MM.  ...MM.....       .   .MM.    
         ..MMMMMMMMMMMMMMM+.     . MM.    .MM. . .. ... .$MMMMN..    
-        .MMMMMMMMMMMMMM$.       ..MM.  ...MM. IMMMMMMMMMMMM~.   .   
+        .MMMMMMMMMMMMMM$.       ..MM.  ...MM. IMMMMMMMMMMMM~.      
         .MM..            .      ..MM   ...MMMMMMMMMMMMMMMMMMMMD..   
         .MM.                  .. MMM.  .. MM.........,:~+IZ8NMMMD.  
         .MM.          . . ..  ..MMMM,   ..MM.    . .. .. .  ...MM   
         .MM.          .7MMM,..DMMM.MN.    MM ..       .       .MM   
         .MM.          ...MMMMMMM...~DMN.~NMMMMMMMMMMNND88OOZOOMMM   
         .MM.                ..      .NNMMMMMMMMMMNMMMMMMMMMMMMM~ .  
-        .MM.                          .MM,. ... . MM+.... ..   .    
+        .MM.                          .MM,. ... . MM+....        
         .MM,        ...                MMO........MM..              
         .MM. ..       ..              ..MMMMMMMMMMMM,.              
         .NMMMMMMMMMMMMMN,.             .MMD?++++MND...              
         ..??++=:,,...,,NM+ ...  . .  . MMD.  .. .MM                 
             ............MMMMI. ........+MM.... .?MM.                
-                        .=MMMMMMMMMMMMMMMMMMMMMMM.                 
-                        
-                                                                    
+                        .=MMMMMMMMMMMMMMMMMMMMMMM.                                                             
                                                     """,
-        """                               .                           
-                                .. .MMMMMM,...                      
-            $MMMD~....  .... .ZMMMMO::DMNMM ,.                    
-        ..NMMMMMMMMMMMMM$...=NN  .  .  .8MMM. .                  
-        ,MM,.   .....=MMMMMMMM..   .NM. ...MMM  .                
-        .MM .  .       .....MM..  ..MM..   .+MMM .           ..  
-            .NMMMM$..... .... .MM.    .MM .     .+MMMMMMMMMMMMMMM.. 
-        .     ~MMMMMMMMMMMMI .MM..   .MM.         $MMMMMMMMMMMMMM. 
-        ..DMMMMMMMMMMMMMMMMMMMM..   .MM.        ..           .MM. 
-        .NMMMN8ZI+~:,.........MM..  ..MMM .                   .MM. 
-        ..MM ..  . .. ....   ..MM...  ,MMMM    . ..            .MM. 
-        MM. ...           .. MM... .MM.MMMD .:MMMI           .MM. 
-        .MMMOOOOO88DNNMMMMMMMMMMN~ DMD~ ,.MMMMMMM..           .MM. 
-        ~MMMMMMMMMMMMMNMMMMMMMMMMNM.      ..                .MM. 
-        . . .  ... +MM.. ...  ,MM.                          .MM. 
-                    .MM. ......OMM                ....      ..MM. 
-                    .,MMMMMMMMMMNM.             . .        ....MM. 
-                    ..DNM=+++?DNM..             ,NMMMMMMMMMMMMMM  
-                    .MM. .... DMM.. .      .  +MN,,..,,,~=++?? . 
-                    .MM?. ....MM=. . ..... IMMMM............     
-                    . .MMMMMMMMMMMMMMMMMMMMMMM~.                  
+        """
+                                 ..                        
+                         .  ,MMMMMM,. .                            
+      .$MMMD~..... .. .  ZMMMMO::DMNMM., .                        
+    ..NMMMMMMMMMMMMM7...=NN.      . DMMM. .                        
+    ,MM.     ....=MMMMMMMM.     NM...  MMM...                    
+    .MM.   .       .....MM...  .MM.    .+MMM             .        
+    ..NMMMM$. ... .. . .MM.    .MM .     .+MMMMMMMMMMMMMMM..        
+      .~MMMMMMMMMMMMI .MM...  .MM..       .$MMMMMMMMMMMMMM.        
+   ..DMMMMMMMMMMMMMMMMMMMM...   MM..      .            ..MM.        
+  .DMMMN8ZI+~:,.........MM ..  .MMM ..                  .MM.        
+   MM...  . .. .. .    .MM..   ,MMMM..  .. . .          .MM.        
+   MM.       .       .. MM    .NM.MMMD..,MMM7.          .MM.        
+   MMMOOZOO88DNNMMMMMMMMMMN~.NMD~...MMMMMMM...          .MM.        
+  . ~MMMMMMMMMMMMMNMMMMMMMMMMNN.      ..                .MM.        
+        ....+MM . ... .,MM.                             .MM.        
+              ..MM........OMM                ...        ,MM.        
+              .,MMMMMMMMMMMM..              ..       .. .MM.        
+              ...DNM++++?DMM.             .,NMMMMMMMMMMMMMN.        
+                 MM. ..  .DMM .  . .  ... +MN,,...,,:=++??..        
+                .MM?. ....MM+........ .IMMMM............            
+                 .MMMMMMMMMMMMMMMMMMMMMMM=.                                      
                                 """,
     ],
     "rock_paper": [
@@ -280,19 +268,18 @@ ASCII_sprites = {
         .IM7.  ..     ...     .. ,.,. .OMM.......NMM .              
         INMMMMMMMMMMMMN .       .......MNMMMMMMMNN..               
         ,$O8DNNMMMMMMMMN,.   . .......MM:...  ..MM.                
-            .    .   ..NMM?, ..,.. ...MM~.... ..MM..               
-                        MMMMM8MDMMM8MMMMMMMMMMMMZ..  
-                                
-                                
-                                    
+                     ..NMM?, ..,.. ...MM~.... ..MM..               
+                        MMMMM8MDMMM8MMMMMMMMMMMMZ..
+
+
                                             """,
         """     
-                                .$MMMM...                         
-                                ..NND..MMM.                         
-                                .MMM. ..MMM..                       
-                            ..MM..  . .MMM                       
+                                .$MMMM..                         
+                              .NND..MMM.                         
+                              .MMM.    MMM..                       
+                             ..MM..  . .MMM.                       
                             . DMM      .ZMM:..                   
-        .  ..ZMMMMMMMMMMMMMMMMMMMMM      ..MMM.                   
+           ..ZMMMMMMMMMMMMMMMMMMMMM      ..MMM.                   
         .ZMMMMMMMMMMMMMMMMMMMMMMMMMM..   . ONMD..                
         . OMM....................  .NNM.      .MMM,                
         MMO.                      .,MMM.    ...MMMMMMMMMMMMMMM.. 
@@ -300,22 +287,20 @@ ASCII_sprites = {
         ..~MMMMMMMMMMMMMMMMMMMM..     MM8 .        ....       MM   
         .MMM.....                    .=MM.                    MM   
         IMZ.                 ..       .MMM . .  ..            MM   
-        MM.                           .MMNM ..NMM.           MM   
+        MM.                           .MMNM ..NMM.            MM   
         .,MMMMMMMMMMMMMMMMMMMMN.       ..,NMMMMMM..           MM   
-        ..MMMI~:~~~~~~~~~~~:.,          .. ....             MM   
-        .NMM...                                             MM   
-        ..NMM.               .                               MM   
-            MMMMMMMMMMMMMMMMMMM.                  ..    ... ..MM.  
+        ..MMMI~:~~~~~~~~~~~:.,          .. ....               MM   
+        .NMM...                                               MM   
+        ..NMM.               .                                MM   
+            MMMMMMMMMMMMMMMMMMM.                  ..    .....MM.  
             .NMMMMMMMMMMMMMMMM .             .  NNMMMMMMMMMMMMM   
-        .  ... MM . .....  . .               .NMM.,,,,....... .. 
+            .. MM . .....  . .               .NMM.,,,,....... .. 
                 .NMO.........................MMMM .    .......     
                    MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
                 """,
     ],
     "rock_scissors": [
         """ 
-
-
                             ..=8MMMMMMMM..                         
                             .MNMM  ..,.INMM.                        
                         .. MMM=..........,MMMMMMM7 ..               
@@ -334,45 +319,42 @@ ASCII_sprites = {
         INMMMMMMMMMMMMN .       .......MNMMMMMMMNN..               
         ,$O8DNNMMMMMMMMN,.   . .......MM:...  ..MM.                
             .    .   ..NMM?, ..,.. ...MM~.... ..MM..               
-                        MMMMM8MDMMM8MMMMMMMMMMMMZ..  
-                                
-                                
-                                    
-                                            """,
-        """                               
-                
-                                .. .MMMMMM,...                      
-            $MMMD~....  .... .ZMMMMO::DMNMM ,.                    
-        ..NMMMMMMMMMMMMM$...=NN  .  .  .8MMM. .                  
-        ,MM,.   .....=MMMMMMMM..   .NM. ...MMM  .                
-        .MM .  .       .....MM..  ..MM..   .+MMM .           ..  
-            .NMMMM$..... .... .MM.    .MM .     .+MMMMMMMMMMMMMMM.. 
-        .     ~MMMMMMMMMMMMI .MM..   .MM.         $MMMMMMMMMMMMMM. 
-        ..DMMMMMMMMMMMMMMMMMMMM..   .MM.        ..           .MM. 
-        .NMMMN8ZI+~:,.........MM..  ..MMM .                   .MM. 
-        ..MM ..  . .. ....   ..MM...  ,MMMM    . ..            .MM. 
-        MM. ...           .. MM... .MM.MMMD .:MMMI           .MM. 
-        .MMMOOOOO88DNNMMMMMMMMMMN~ DMD~ ,.MMMMMMM..           .MM. 
-        ~MMMMMMMMMMMMMNMMMMMMMMMMNM.      ..                .MM. 
-        . . .  ... +MM.. ...  ,MM.                          .MM. 
-                    .MM. ......OMM                ....      ..MM. 
-                    .,MMMMMMMMMMNM.             . .        ....MM. 
-                    ..DNM=+++?DNM..             ,NMMMMMMMMMMMMMM  
-                    .MM. .... DMM.. .      .  +MN,,..,,,~=++?? . 
-                    .MM?. ....MM=. . ..... IMMMM............     
-                    . .MMMMMMMMMMMMMMMMMMMMMMM~.                  
-                                
-                """,
+                        MMMMM8MDMMM8MMMMMMMMMMMMZ..            
+                                           
+                                             """,
+        """
+                                 ..                        
+                         .  ,MMMMMM,. .                            
+      .$MMMD~..... .. .  ZMMMMO::DMNMM., .                        
+    ..NMMMMMMMMMMMMM7...=NN.      . DMMM. .                        
+    ,MM.     ....=MMMMMMMM.     NM...  MMM...                    
+    .MM.   .       .....MM...  .MM.    .+MMM             .        
+    ..NMMMM$. ... .. . .MM.    .MM .     .+MMMMMMMMMMMMMMM..        
+      .~MMMMMMMMMMMMI .MM...  .MM..       .$MMMMMMMMMMMMMM.        
+   ..DMMMMMMMMMMMMMMMMMMMM...   MM..      .            ..MM.        
+  .DMMMN8ZI+~:,.........MM ..  .MMM ..                  .MM.        
+   MM...  . .. .. .    .MM..   ,MMMM..  .. . .          .MM.        
+   MM.       .       .. MM    .NM.MMMD..,MMM7.          .MM.        
+   MMMOOZOO88DNNMMMMMMMMMMN~.NMD~...MMMMMMM...          .MM.        
+  . ~MMMMMMMMMMMMMNMMMMMMMMMMNN.      ..                .MM.        
+        ....+MM . ... .,MM.                             .MM.        
+              ..MM........OMM                ...        ,MM.        
+              .,MMMMMMMMMMMM..              ..       .. .MM.        
+              ...DNM++++?DMM.             .,NMMMMMMMMMMMMMN.        
+                 MM. ..  .DMM .  . .  ... +MN,,...,,:=++??..        
+                .MM?. ....MM+........ .IMMMM............            
+                 .MMMMMMMMMMMMMMMMMMMMMMM=.                                      
+                                """,
     ],
     "paper_scissors": [
-        """
-                                .MMMM$. .                         
+        """                                           
+                                 .MMMM$.                         
                                 .MMM..DNN.                          
                             ..MMM   .MMM..                        
-                            . MMM. .  ..MM .                        
+                            . MMM. ...MM..                        
                         ..:MMZ.      MMD..                        
-                        ...MMM..     .MMMMMMMMMMMMMMMMMMMMM$.....   
-        .            . DMMO .    .MMMMMMMMMMMMMMMMMMMMMMMMMMO .   
+                        ...MMM..     .MMMMMMMMMMMMMMMMMMMMM$.   
+                     . DMMO .    .MMMMMMMMMMMMMMMMMMMMMMMMMMO.   
                     ,MMM.      .MNN. .....................MMO    
         ..MMMMMMMMMMMMMMM ..    .MMM,                       .OMM.   
         .MMMMMMMMMMMMMO.        MM?..    .. ............. .,MM,    
@@ -388,69 +370,70 @@ ASCII_sprites = {
         .MMMMMMMMMMMMMNN ..               MMMMMMMMMMMMMMMMN....    
         .. .......,,,,,MMN .             .  ..   ... ..MM... ...    
             .......     .MMMM........................,OMN..         
-                       ...ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .   """,
-        """      
-                
-                
-                
-                                .. .MMMMMM,...                      
-            $MMMD~....  .... .ZMMMMO::DMNMM ,.                    
-        ..NMMMMMMMMMMMMM$...=NN  .  .  .8MMM. .                  
-        ,MM,.   .....=MMMMMMMM..   .NM. ...MMM  .                
-        .MM .  .       .....MM..  ..MM..   .+MMM .           ..  
-            .NMMMM$..... .... .MM.    .MM .     .+MMMMMMMMMMMMMMM.. 
-        .     ~MMMMMMMMMMMMI .MM..   .MM.         $MMMMMMMMMMMMMM. 
-        ..DMMMMMMMMMMMMMMMMMMMM..   .MM.        ..           .MM. 
-        .NMMMN8ZI+~:,.........MM..  ..MMM .                   .MM. 
-        ..MM ..  . .. ....   ..MM...  ,MMMM    . ..            .MM. 
-        MM. ...           .. MM... .MM.MMMD .:MMMI           .MM. 
-        .MMMOOOOO88DNNMMMMMMMMMMN~ DMD~ ,.MMMMMMM..           .MM. 
-        ~MMMMMMMMMMMMMNMMMMMMMMMMNM.      ..                .MM. 
-        . . .  ... +MM.. ...  ,MM.                          .MM. 
-                    .MM. ......OMM                ....      ..MM. 
-                    .,MMMMMMMMMMNM.             . .        ....MM. 
-                    ..DNM=+++?DNM..             ,NMMMMMMMMMMMMMM  
-                    .MM. .... DMM.. .      .  +MN,,..,,,~=++?? . 
-                    .MM?. ....MM=. . ..... IMMMM............     
-                    . .MMMMMMMMMMMMMMMMMMMMMMM~.                  
-                                
-                """,
+                    .   ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .                                                
+                                                            """,
+        """
+
+
+                                 ..                        
+                         .  ,MMMMMM,. .                            
+      .$MMMD~..... .. .  ZMMMMO::DMNMM., .                        
+    ..NMMMMMMMMMMMMM7...=NN.      . DMMM. .                        
+    ,MM.     ....=MMMMMMMM.     NM...  MMM...                    
+    .MM.   .       .....MM...  .MM.    .+MMM             .        
+    ..NMMMM$. ... .. . .MM.    .MM .     .+MMMMMMMMMMMMMMM..        
+      .~MMMMMMMMMMMMI .MM...  .MM..       .$MMMMMMMMMMMMMM.        
+   ..DMMMMMMMMMMMMMMMMMMMM...   MM..      .            ..MM.        
+  .DMMMN8ZI+~:,.........MM ..  .MMM ..                  .MM.        
+   MM...  . .. .. .    .MM..   ,MMMM..  .. . .          .MM.        
+   MM.       .       .. MM    .NM.MMMD..,MMM7.          .MM.        
+   MMMOOZOO88DNNMMMMMMMMMMN~.NMD~...MMMMMMM...          .MM.        
+  . ~MMMMMMMMMMMMMNMMMMMMMMMMNN.      ..                .MM.        
+        ....+MM . ... .,MM.                             .MM.        
+              ..MM........OMM                ...        ,MM.        
+              .,MMMMMMMMMMMM..              ..       .. .MM.        
+              ...DNM++++?DMM.             .,NMMMMMMMMMMMMMN.        
+                 MM. ..  .DMM .  . .  ... +MN,,...,,:=++??..        
+                .MM?. ....MM+........ .IMMMM............            
+                 .MMMMMMMMMMMMMMMMMMMMMMM=.  
+
+                                    
+                                """,
     ],
     "scissors_paper": [
-        """   
+        """         
 
-
-
+                                ..                                 
                             . .,MMMMMM,  .                         
                         . ,.MMNMD::OMMMMZ  . .. .....~DMMM$.      
                         . .MMMD .      .NN=...7MMMMMMMMMMMMMN..    
                     ...MMM  ...MN     .MMMMMMMM=....     .MM,    
         .             MMM+.    .MM.  ...MM.....       .   .MM.    
         ..MMMMMMMMMMMMMMM+.     . MM.    .MM. . .. ... .$MMMMN..    
-        .MMMMMMMMMMMMMM$.       ..MM.  ...MM. IMMMMMMMMMMMM~.   .   
+        .MMMMMMMMMMMMMM$.       ..MM.  ...MM. IMMMMMMMMMMMM~.      
         .MM..            .      ..MM   ...MMMMMMMMMMMMMMMMMMMMD..   
         .MM.                  .. MMM.  .. MM.........,:~+IZ8NMMMD.  
         .MM.          . . ..  ..MMMM,   ..MM.    . .. .. .  ...MM   
         .MM.          .7MMM,..DMMM.MN.    MM ..       .       .MM   
         .MM.          ...MMMMMMM...~DMN.~NMMMMMMMMMMNND88OOZOOMMM   
         .MM.                ..      .NNMMMMMMMMMMNMMMMMMMMMMMMM~ .  
-        .MM.                          .MM,. ... . MM+.... ..   .    
+        .MM.                          .MM,. ... . MM+....        
         .MM,        ...                MMO........MM..              
         .MM. ..       ..              ..MMMMMMMMMMMM,.              
         .NMMMMMMMMMMMMMN,.             .MMD?++++MND...              
         ..??++=:,,...,,NM+ ...  . .  . MMD.  .. .MM                 
             ............MMMMI. ........+MM.... .?MM.                
-                        .=MMMMMMMMMMMMMMMMMMMMMMM.                 
-                                            
-                                                                    
-                                                """,
+                        .=MMMMMMMMMMMMMMMMMMMMMMM.     
+
+
+                                                    """,
         """     
-                                .$MMMM...                         
-                                ..NND..MMM.                         
-                                .MMM. ..MMM..                       
-                            ..MM..  . .MMM                       
+                                .$MMMM..                         
+                              .NND..MMM.                         
+                              .MMM.    MMM..                       
+                             ..MM..  . .MMM.                       
                             . DMM      .ZMM:..                   
-        .  ..ZMMMMMMMMMMMMMMMMMMMMM      ..MMM.                   
+           ..ZMMMMMMMMMMMMMMMMMMMMM      ..MMM.                   
         .ZMMMMMMMMMMMMMMMMMMMMMMMMMM..   . ONMD..                
         . OMM....................  .NNM.      .MMM,                
         MMO.                      .,MMM.    ...MMMMMMMMMMMMMMM.. 
@@ -458,20 +441,21 @@ ASCII_sprites = {
         ..~MMMMMMMMMMMMMMMMMMMM..     MM8 .        ....       MM   
         .MMM.....                    .=MM.                    MM   
         IMZ.                 ..       .MMM . .  ..            MM   
-        MM.                           .MMNM ..NMM.           MM   
+        MM.                           .MMNM ..NMM.            MM   
         .,MMMMMMMMMMMMMMMMMMMMN.       ..,NMMMMMM..           MM   
-        ..MMMI~:~~~~~~~~~~~:.,          .. ....             MM   
-        .NMM...                                             MM   
-        ..NMM.               .                               MM   
-            MMMMMMMMMMMMMMMMMMM.                  ..    ... ..MM.  
+        ..MMMI~:~~~~~~~~~~~:.,          .. ....               MM   
+        .NMM...                                               MM   
+        ..NMM.               .                                MM   
+            MMMMMMMMMMMMMMMMMMM.                  ..    .....MM.  
             .NMMMMMMMMMMMMMMMM .             .  NNMMMMMMMMMMMMM   
-        .  ... MM . .....  . .               .NMM.,,,,....... .. 
+            .. MM . .....  . .               .NMM.,,,,....... .. 
                 .NMO.........................MMMM .    .......     
                    MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
                 """,
     ],
     "rock_rotated": [
-        """       ..... .         .  MMMM8 ...                                    
+        """
+                ..... .         .  MMMM8 ...                                    
                 .........   ..... DMM, IMM....                                   
                 ..............?NN=MM~.  .MMNN=..                                  
                 .......,..8MMM8NMM,  ..NMMODMM .                                 
@@ -490,37 +474,38 @@ ASCII_sprites = {
                 ..IMM          . .      .....DN8.........                           
             ..MMO                . .. ..?MM.........                             
             . IMM. .            ......?MM8..........                             
-                . .DMD...          DMMMMMMO..... ........                           
+               .DMD...          DMMMMMMO..... ........                           
                 .IMM=...      $MM~ ......  ..........                            
-                ....DMM ..    MM$......      ........                             
+                ...DMM ..    MM$......      ........                             
                     .MM=...8MM..              ...                                
                     .  .DMM,MMI . .                .                               
-                    ... DM+...             """,
-        """       ..,MMM=.             ...                  
-                ..DMN,OMM  . ...   ........                
-            .. :~MM..  NM8.,. . . .......,.               
-            ..MMMMMM?. ..+MMMMMMM..........                
-            ..NM~. .DM8..7MM.. .,MMD..,..                   
-            ..MM,..  .MMMM:.   ..,?MM ...                   
-        .MMMMM... .NMM  .  ....,:M8..                    
-        . MM...8MD  MM=.    ..MM$..MM...                   
-        ..~MN.. .+MMMM  ...,.$MD....~M,.                    
-        ...MMMM8.    NMM.....,MD:.,..  M7.                    
-        . MM..:MM~  .~MMM:..NNMD.,.. ..MN..                   
-        ..MM   .MMMOMMM NMN8MDM:. .. ..MM.                    
-        .MMO...?MM8... ....NM:     ..MM ..                  
-        .7MM .NM..........=MM .    .OMO ...                
-        .. NMMM=........,. ZM8 . ....IMM+ ..               
-        ..,..,$MM=..... ...   .MMMM.    .DMM                 
-        ...,....8NO ..,.....  . ...      .,MM?..             
-        ..,.....,ND~....      .. .       . DMM.             
-        ....... 8DM  ..  ..              .~MM..           
-        ..........,MMM$~,~=            ...MMN ..           
-        ........... . 8MMMMMM?           ~MM.               
-        .... ..     ...... DMD. .  . ..MMN.                
-        ...             ...MM7 ....ZMM,                  
-                            .OMM. .MM$ .                  
-                            . ..MMNMM..                    
-                                ..7M$ .      """,
+                     ... DM+...             """,
+        """       
+                                     ... 8MMMM  .         . .....       
+                                   ....MMI ,MMD .....   .........                
+                                  ..=NNMM.  .~MM=NN?..............                
+                                 . MMDOMMN..  ,MMN8MMM8..,.......                
+                                ..MM,. .=MM,.MMZ ..  ?MD,....                    
+                                .:MM+.. ..OMMM. .. ....MM,...                    
+                             . DMMI8MM  ..MM,.    .:M7. MM ..                    
+                            ..:MM....MMZ8MM.......OMD .,$MI.                        
+                          ....MMM... .$MMM.   ..:MN:..,.,MM..                    
+                          ..OMDDMM?.  .:MM=....DMM.......MM .                    
+                         ...MM.. =MM...MMMMMMNMM8$.... ..MM..                    
+                          ..7M8 . .MMMMM~. ,++.ND,,.   ..MM. .                    
+                          ....MMI..:MD. .......ZMI.     .MM  .                    
+                             ..8MMMMM...........MM,. .. . MMI...                    
+                           ......MMI.............MMM~,..   OMM,.                    
+                           ..,,,. ?DM?....  .   ...IND.     .OMM ..                
+                           .........8ND.....      . .          MMI..                
+                             .........MM?.. .. .                OMM..            
+                             ..........8MM?......            . .MMI .            
+                           ........ .....OMMMMMMD          ...DMD. .                
+                            ..........  ...... ~MM$      ...=MMI.                
+                             ........      ......$MM    .. MMD....                
+                                ...              ..MM8...=MM.                    
+                               .                . . IMM,MMD.  .                    
+                                                    ...+MD ...                       
+                                """,
     ],
 }
