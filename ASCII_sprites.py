@@ -45,7 +45,7 @@ ASCII_sprites = {
                 ..NNMMMMMMMMM..... .        .NMMMMMMMMMMMMMI. 
                 ..MN..     :MM,......   . ,,NMMMMMMMMNND88$,. 
                 ..MM. .....~MM. ....,.. .?MMM.. .. .   ..   . 
-                .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
+                 .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
                             
                             
                                 
@@ -75,7 +75,7 @@ ASCII_sprites = {
         .MMMMMMMMMMMMMNN ..               MMMMMMMMMMMMMMMMN....    
         .. .......,,,,,MMN .             .  ..   ... ..MM... ...    
             .......     .MMMM........................,OMN..         
-                    . ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .        
+                    .   ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .        
                                                             
                                                             """,
         """        
@@ -101,7 +101,7 @@ ASCII_sprites = {
                     ..NNMMMMMMMMM..... .        .NMMMMMMMMMMMMMI. 
                     ..MN..     :MM,......   . ,,NMMMMMMMMNND88$,. 
                     ..MM. .....~MM. ....,.. .?MMM.. .. .   ..   . 
-                    .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
+                     .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
                                 
                                 
                                     
@@ -152,7 +152,7 @@ ASCII_sprites = {
                     ..NNMMMMMMMMM..... .        .NMMMMMMMMMMMMMI. 
                     ..MN..     :MM,......   . ,,NMMMMMMMMNND88$,. 
                     ..MM. .....~MM. ....,.. .?MMM.. .. .   ..   . 
-                    .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
+                     .ZMMMMMMMMMMMM8MMMDM8MMMMM ..  
                                 
                                 
                                     
@@ -182,7 +182,7 @@ ASCII_sprites = {
         .MMMMMMMMMMMMMNN ..               MMMMMMMMMMMMMMMMN....    
         .. .......,,,,,MMN .             .  ..   ... ..MM... ...    
             .......     .MMMM........................,OMN..         
-                    . ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .        
+                    .   ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .        
                                                             
                                                             """,
         """     
@@ -208,7 +208,7 @@ ASCII_sprites = {
             .NMMMMMMMMMMMMMMMM .             .  NNMMMMMMMMMMMMM   
         .  ... MM . .....  . .               .NMM.,,,,....... .. 
                 .NMO.........................MMMM .    .......     
-                MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
+                   MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
                 """,
     ],
     "scissors_scissors": [
@@ -309,7 +309,7 @@ ASCII_sprites = {
             .NMMMMMMMMMMMMMMMM .             .  NNMMMMMMMMMMMMM   
         .  ... MM . .....  . .               .NMM.,,,,....... .. 
                 .NMO.........................MMMM .    .......     
-                MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
+                   MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
                 """,
     ],
     "rock_scissors": [
@@ -388,7 +388,7 @@ ASCII_sprites = {
         .MMMMMMMMMMMMMNN ..               MMMMMMMMMMMMMMMMN....    
         .. .......,,,,,MMN .             .  ..   ... ..MM... ...    
             .......     .MMMM........................,OMN..         
-                    . ..ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .   """,
+                       ...ONMMMMMMMMMMMMMMMMMMMMMMMMMMM.  .   """,
         """      
                 
                 
@@ -467,7 +467,7 @@ ASCII_sprites = {
             .NMMMMMMMMMMMMMMMM .             .  NNMMMMMMMMMMMMM   
         .  ... MM . .....  . .               .NMM.,,,,....... .. 
                 .NMO.........................MMMM .    .......     
-                MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
+                   MMMMMMMMMMMMMMMMMMMMMMMMMMMNZ.. . 
                 """,
     ],
     "rock_rotated": [
