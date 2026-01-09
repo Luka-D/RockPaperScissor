@@ -1,5 +1,7 @@
+# Standard
 import random, time, os
 
+# Local
 from ASCII_sprites import ASCII_sprites
 
 
@@ -22,8 +24,10 @@ def print_result(images):
 
 
 def player_chooses():
-    print("Welcome to Rock, Paper, Scissors")
-    print("=" * 50)
+    print("\n")
+    print("    Welcome to Rock, Paper, Scissors    ")
+    print("=" * 40)
+    print("\n")
     result = input("Choose either rock, paper or scissors: ").casefold()
     choicelist = ["rock", "paper", "scissors"]
     if result in choicelist:
@@ -31,7 +35,8 @@ def player_chooses():
         return players_choice
     else:
         print("Invalid Selection")
-        player_chooses()
+        time.sleep(0.8)
+        return None
 
 
 def opponent_chooses():
@@ -92,19 +97,21 @@ def game(players_choice, opponents_choice):
     elif players_choice == "scissors" and opponents_choice == "scissors":
         print_result(ASCII_sprites["scissors_scissors"])
         print("Same result. Try again.")
-    play = input("Play again? (y = Yes, n = No) ").casefold()
-    if play == "y":
-        main()
-    else:
+    play_again = input("Play again? (y = Yes, n = No) ").casefold()
+    if play_again not in ["y", "yes"]:
         print("Goodbye!")
+        quit()
 
 
 def main():
-    clear_screen()
-    players_choice = player_chooses()
+    players_choice = None
+    while players_choice is None:
+        clear_screen()
+        players_choice = player_chooses()
     opponents_choice = opponent_chooses()
     game(players_choice, opponents_choice)
 
 
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
