@@ -516,6 +516,7 @@ rock_rotated = [
                      . ..MMNMM..                    
                         ..7M$ .      '''
 ]
+
 def printResult(images):
     strings_by_column = [s.split('\n') for s in images]
     strings_by_line = zip(*strings_by_column)
@@ -531,34 +532,26 @@ def printResult(images):
         ]
         print(''.join(padded_strings))
 
-def main():
-    os.system('cls')
-    begin()
-    opponent()
-    game()
-
 def begin():
     print('Welcome to Rock, Paper, Scissors')
     result = input('Choose either rock, paper or scissors ').lower()
     choicelist = ['rock', 'paper', 'scissors']
     if result in choicelist:
-        global pyresult
-        pyresult = result
-        #print(pyresult)
+        players_choice = result
+        return players_choice
     else:
         print ('Invalid Selection')
         begin()
 
-def opponent():
+def opponent_chooses():
     choice = random.randrange(0,3)
-    global opresult
     if choice == 0:
-        opresult = 'rock'
+        opponents_choice = 'rock'
     elif choice == 1:
-        opresult = 'paper'
+        opponents_choice = 'paper'
     else:
-        opresult = 'scissors'
-    #print(opresult)
+        opponents_choice = 'scissors'
+    return opponents_choice
 
 def RoShamBo(num):
     print(num)
@@ -569,7 +562,7 @@ def RoShamBo(num):
     time.sleep(0.25)
     os.system('cls')
     
-def game():
+def game(players_choice, opponents_choice):
     os.system('cls')
     count = 3
     while count>0:
@@ -579,31 +572,31 @@ def game():
     printResult(rock_rotated)
     time.sleep(0.25)
     os.system('cls')
-    if pyresult == 'rock' and opresult == 'scissors':
+    if players_choice == 'rock' and opponents_choice == 'scissors':
         printResult(rock_scissors)
         print("rock beats scissors. You win!")
-    elif pyresult == 'rock' and opresult == 'paper':
+    elif players_choice == 'rock' and opponents_choice == 'paper':
         printResult(rock_paper)
         print('paper beats rock. You lose.')
-    elif pyresult == 'paper' and opresult == 'rock':
+    elif players_choice == 'paper' and opponents_choice == 'rock':
         printResult(paper_rock)
         print("paper beats rock. You win!")
-    elif pyresult == 'paper' and opresult == 'scissors':
+    elif players_choice == 'paper' and opponents_choice == 'scissors':
         printResult(paper_scissors)
         print('scissors beat paper. You lose.')
-    elif pyresult == 'scissors' and opresult == 'paper':
+    elif players_choice == 'scissors' and opponents_choice == 'paper':
         printResult(scissors_paper)
         print("scissors beat paper. You win!")
-    elif pyresult == 'scissors' and opresult == 'rock':
+    elif players_choice == 'scissors' and opponents_choice == 'rock':
         printResult(scissors_rock)
         print('rock beats scissors. You lose.')
-    elif pyresult == 'rock' and opresult == 'rock':
+    elif players_choice == 'rock' and opponents_choice == 'rock':
         printResult(rock_rock)
         print('Same result. Try again.')
-    elif pyresult == 'paper' and opresult == 'paper':
+    elif players_choice == 'paper' and opponents_choice == 'paper':
         printResult(paper_paper)
         print('Same result. Try again.')
-    elif pyresult == 'scissors' and opresult == 'scissors':
+    elif players_choice == 'scissors' and opponents_choice == 'scissors':
         printResult(scissors_scissors)
         print('Same result. Try again.')
     play = input("Play again? (y = Yes, n = No) ").lower()
@@ -611,6 +604,12 @@ def game():
         main()
     else:
         print("Goodbye!")
-        
+
+def main():
+    os.system('cls')
+    players_choice = begin()
+    opponents_choice = opponent_chooses()
+    game(players_choice, opponents_choice)
+
 if __name__=='__main__':
     main()
