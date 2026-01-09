@@ -3,6 +3,10 @@ import random, time, os
 from ASCII_sprites import ASCII_sprites
 
 
+def clear_screen():
+    os.system("cls" if os.name == "nt" else "clear")
+
+
 def print_result(images):
     strings_by_column = [s.split("\n") for s in images]
     strings_by_line = zip(*strings_by_column)
@@ -45,14 +49,14 @@ def ro_sham_bo(num):
     print(num)
     print_result(ASCII_sprites["rock_rotated"])
     time.sleep(0.25)
-    os.system("cls")
+    clear_screen()
     print_result(ASCII_sprites["rock_rock"])
     time.sleep(0.25)
-    os.system("cls")
+    clear_screen()
 
 
 def game(players_choice, opponents_choice):
-    os.system("cls")
+    clear_screen()
     count = 3
     while count > 0:
         ro_sham_bo(count)
@@ -60,7 +64,7 @@ def game(players_choice, opponents_choice):
     print("Go!")
     print_result(ASCII_sprites["rock_rotated"])
     time.sleep(0.25)
-    os.system("cls")
+    clear_screen()
     if players_choice == "rock" and opponents_choice == "scissors":
         print_result(ASCII_sprites["rock_scissors"])
         print("rock beats scissors. You win!")
@@ -96,7 +100,7 @@ def game(players_choice, opponents_choice):
 
 
 def main():
-    os.system("cls")
+    clear_screen()
     players_choice = player_chooses()
     opponents_choice = opponent_chooses()
     game(players_choice, opponents_choice)
