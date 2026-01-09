@@ -17,8 +17,9 @@ def print_result(images):
         print("".join(padded_strings))
 
 
-def begin():
+def player_chooses():
     print("Welcome to Rock, Paper, Scissors")
+    print("=" * 50)
     result = input("Choose either rock, paper or scissors ").lower()
     choicelist = ["rock", "paper", "scissors"]
     if result in choicelist:
@@ -26,7 +27,7 @@ def begin():
         return players_choice
     else:
         print("Invalid Selection")
-        begin()
+        player_chooses()
 
 
 def opponent_chooses():
@@ -40,7 +41,7 @@ def opponent_chooses():
     return opponents_choice
 
 
-def RoShamBo(num):
+def ro_sham_bo(num):
     print(num)
     print_result(ASCII_sprites["rock_rotated"])
     time.sleep(0.25)
@@ -54,7 +55,7 @@ def game(players_choice, opponents_choice):
     os.system("cls")
     count = 3
     while count > 0:
-        RoShamBo(count)
+        ro_sham_bo(count)
         count -= 1
     print("Go!")
     print_result(ASCII_sprites["rock_rotated"])
@@ -96,7 +97,7 @@ def game(players_choice, opponents_choice):
 
 def main():
     os.system("cls")
-    players_choice = begin()
+    players_choice = player_chooses()
     opponents_choice = opponent_chooses()
     game(players_choice, opponents_choice)
 
